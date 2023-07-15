@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+body {
+    margin: 0px;
+}
+
+#artigo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/imagem-de-fundo1.jpg);
+    background-size: cover;
+}
+
+.titulo-logo {
+    
+}
