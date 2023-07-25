@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Page</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        #cabecalho{
+            background-color: aqua;
+            box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.5);
+        }
+        #logo {
+            text-align: center;
+            padding: 20px;
+        }
+        #nav {
+            padding: 10px;
+        }
+        #nav > a {
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: rgb(1, 142, 142);
+        }
+        main {
+            min-width: 300px;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgb(165, 223, 223);
+        }
+        .artigo {
+            background-color: rgb(169, 236, 236);
+            margin: 20px;
+            padding: 10px;
+            border-radius: 15px 15px;
+            box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.5);
+        }
+        .artigo h2 {
+            background-color: rgb(89, 199, 162);
+            margin: -10px;
+            margin-bottom: 5px;
+            padding: 5px;
+            border-radius: 15px 15px 0px 0px;
+        }
+        .artigo p {
+            text-indent: 20px;
+            text-align: justify;
+            font-size: 1.2em;
+        }
+        .rodape {
+            background-color: rgb(1, 57, 57);
+            color: white;
+            text-align: center;
+            font-size: 0.8em;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1 id="logo">Logo</h1>
+        <nav id="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="artigo">
+            <h2 class="tituloMain">Titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda saepe hic provident? Esse provident exercitationem vel optio dolorum corporis porro error blanditiis numquam odio! Explicabo ad esse ex incidunt!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo autem eum totam tenetur eaque quos recusandae pariatur labore possimus voluptatibus dicta quam quis eius enim suscipit deleniti, corrupti assumenda?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo autem eum totam tenetur eaque quos recusandae pariatur labore possimus voluptatibus dicta quam quis eius enim suscipit deleniti, corrupti assumenda?</p>
+        </article>
+        <article class="artigo">
+            <h2 class="tituloMain">Titulo 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda saepe hic provident? Esse provident exercitationem vel optio dolorum corporis porro error blanditiis numquam odio! Explicabo ad esse ex incidunt!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo autem eum totam tenetur eaque quos recusandae pariatur labore possimus voluptatibus dicta quam quis eius enim suscipit deleniti, corrupti assumenda?</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo autem eum totam tenetur eaque quos recusandae pariatur labore possimus voluptatibus dicta quam quis eius enim suscipit deleniti, corrupti assumenda?</p>
+        </article><article class="artigo">
+            <h2 class="tituloMain">Titulo 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis assumenda saepe hic provident? Esse provident exercitationem vel optio dolorum corporis porro error blanditiis numquam odio! Explicabo ad esse ex incidunt!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nemo autem eum totam tenetur eaque quos recusandae pariatur labore possimus voluptatibus dicta quam quis eius enim suscipit deleniti, corrupti assumenda?</p>
+        </article>
+    </main>
+
+    <footer class="rodape">
+        Copyright 2019 Eric Farias
+    </footer>
+</body>
+</html>
