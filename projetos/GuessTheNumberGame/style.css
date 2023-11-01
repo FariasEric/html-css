@@ -36,3 +36,16 @@ button {
   margin: auto;
   transform: translate(0%, -100%);
 }
+
+div.resultParas{
+    padding: 2px;
+}
+p.guesses{
+    padding: 2px;
+}
+p.lastResult{
+    padding: 2px;
+}
+p.lowOrHi{
+    padding: 2px;
+}
